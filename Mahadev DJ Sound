@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MAHADEV DJ SOUND</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>MAHADEV DJ SOUND</h1>
+        <p class="tagline">Wedding • Party • Birthday • All Events</p>
+
+        <div class="details">
+            <h2>Sound Name</h2>
+            <p>MAHADEV DJ SOUND</p>
+
+            <h2>Booking Contact</h2>
+            <p class="phone">📞 9981940271</p>
+
+            <a href="tel:9981940271" class="btn">Call for Booking</a>
+        </div>
+    </div>
+
+</body>
+</html>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 38px;
+    color: #ffcc00;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #dddddd;
+}
+
+.details {
+    background: #111;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 420px;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(255,204,0,0.3);
+}
+
+.phone {
+    font-size: 22px;
+    color: #00ffcc;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #ffcc00;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background: #ffaa00;
+}
